@@ -11,7 +11,7 @@ public class Ocean1 {
     private Island2 island;
 
     @Autowired
-    public Ocean1(@Qualifier("island2") Island2 island) {
+    public void setIsland(@Qualifier("island2") Island2 island) {
         this.island = island;
     }
 
